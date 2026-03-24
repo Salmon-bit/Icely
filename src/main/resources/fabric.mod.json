@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "icely",
+	"version": "${version}",
+	"name": "Icely",
+	"description": "This is a tiny mod that upgrades ice and add new ice features.\n\nPlease rate as Cool <3",
+	"authors": [
+		"Salmon228"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/icely/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.glasses_inc.icely.Icely"
+		],
+		"fabric-datagen": [
+			"com.glasses_inc.icely.IcelyDataGenerator"
+		],
+		"client": [
+			"com.glasses_inc.icely.IcelyClientMod"
+		]
+	},
+	"mixins": [
+		"icely.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
