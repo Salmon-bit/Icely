@@ -1,4 +1,7 @@
 {
   "item.icely.blue_ice_icicle": "Сосулька Из Синего Льда",
-  "item.icely.icicle": "Сосулька"
+  "item.icely.icicle": "Сосулька",
+
+  "block.icely.frosted_oak_log": "Заледеневшее Дубовое Бревно",
+  "block.icely.frosted_oak": "Заледеневший Дубовый Блок"
 }

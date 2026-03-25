@@ -1,4 +1,7 @@
 {
   "item.icely.blue_ice_icicle": "Blue Ice Icicle",
-  "item.icely.icicle": "Icicle"
+  "item.icely.icicle": "Icicle",
+
+  "block.icely.frosted_oak_log": "Frosted Oak Log",
+  "block.icely.frosted_oak": "Frosted Oak Block"
 }
