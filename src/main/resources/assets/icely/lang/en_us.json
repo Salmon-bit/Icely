@@ -1,7 +1,17 @@
 {
   "item.icely.blue_ice_icicle": "Blue Ice Icicle",
   "item.icely.icicle": "Icicle",
+  "item.icely.raw_cryptonite": "Raw Cryptonite",
+  "item.icely.cryptonite_ingot": "Cryptonite Ingot",
 
   "block.icely.frosted_oak_log": "Frosted Oak Log",
-  "block.icely.frosted_oak": "Frosted Oak Block"
+  "block.icely.frosted_oak": "Frosted Oak Block",
+  "block.icely.frosted_oak_planks": "Frosted Oak Planks",
+  "block.icely.frosted_oak_trapdoor": "Frosted Oak Trapdoor",
+  "block.icely.frosted_oak_slab": "Frosted Oak Slab",
+  "block.icely.cryptonite_ore": "Cryptonite Ore",
+  "block.icely.deepslate_cryptonite_ore": "Deepslate Cryptonite Ore",
+
+  "itemgroup.tutorialmod.decorative_icely_block_group": "Decorative Icely Blocks",
+  "itemgroup.tutorialmod.icely": "Icely"
 }

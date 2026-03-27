@@ -1,6 +1,7 @@
 package com.glasses_inc.icely;
 
 import com.glasses_inc.icely.block.ModBlocks;
+import com.glasses_inc.icely.item.ModItemGroups;
 import com.glasses_inc.icely.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class Icely implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
 	}

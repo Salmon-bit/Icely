@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "ingredients": [],
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "icely:frosted_oak_planks"
+    }
+  },
+  "result": {
+    "id": "icely:frosted_oak_slab",
+    "count": 6
+  }
+}

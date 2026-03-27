@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cryptonite",
+  "category": "misc",
+  "ingredient": {
+    "item": "icely:deepslate_cryptonite_ore"
+  },
+  "result": {
+    "id": "icely:cryptonite_ingot"
+  },
+  "experience": 0.4,
+  "cookingtime": 160
+}

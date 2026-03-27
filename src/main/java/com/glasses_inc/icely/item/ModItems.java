@@ -12,6 +12,8 @@ public class ModItems {
 
     public static final Item BLUE_ICE_ICICLE = registerItem("blue_ice_icicle", new Item(new Item.Settings()));
     public static final Item ICICLE = registerItem("icicle", new Item(new Item.Settings()));
+    public static final Item RAW_CRYPONITE = registerItem("raw_cryptonite", new Item(new Item.Settings()));
+    public static final Item CRYPTONITE_INGOT = registerItem("cryptonite_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return  Registry.register(Registries.ITEM, Identifier.of(Icely.MOD_ID, name), item);
@@ -19,11 +21,5 @@ public class ModItems {
 
     public static void registerItems() {
         Icely.LOGGER.info("Registering ModItems for " + Icely.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(ICICLE);
-            entries.add(BLUE_ICE_ICICLE);
-        });
-
     }
 }
