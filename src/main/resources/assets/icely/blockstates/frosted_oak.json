@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "icely:block/frosted_oak",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "icely:block/frosted_oak"
+    },
+    "axis=z": {
+      "model": "icely:block/frosted_oak",
+      "x": 90
     }
   }
 }

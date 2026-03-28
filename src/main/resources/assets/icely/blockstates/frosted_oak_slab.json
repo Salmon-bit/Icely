@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "icely:block/frosted_oak_slab"
+    },
+    "type=double": {
+      "model": "icely:block/frosted_oak_planks"
+    },
+    "type=top": {
+      "model": "icely:block/frosted_oak_slab_top"
+    }
+  }
+}

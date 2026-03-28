@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "icely:block/frosted_oak_log"
+    "end": "icely:block/frosted_oak_log",
+    "side": "icely:block/frosted_oak_log"
   }
 }

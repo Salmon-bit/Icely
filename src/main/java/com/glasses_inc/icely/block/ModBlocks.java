@@ -1,11 +1,7 @@
 package com.glasses_inc.icely.block;
 
 import com.glasses_inc.icely.Icely;
-import com.glasses_inc.icely.item.ModItems;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,7 +12,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
-    public static Block FROSTED_OAK_LOG = registerBlock("frosted_oak_log", new Block(AbstractBlock.Settings
+    public static Block FROSTED_OAK_LOG = registerBlock("frosted_oak_log", new PillarBlock(PillarBlock.Settings
             .create()
             .strength(4f)
             .sounds(Blocks.OAK_LOG.getDefaultState().getSoundGroup())
@@ -24,7 +20,7 @@ public class ModBlocks {
             .burnable()
     ));
 
-    public static Block FROSTED_OAK = registerBlock("frosted_oak", new Block(AbstractBlock.Settings
+    public static Block FROSTED_OAK = registerBlock("frosted_oak", new PillarBlock(PillarBlock.Settings
             .create()
             .strength(4f)
             .sounds(Blocks.OAK_LOG.getDefaultState().getSoundGroup())
@@ -40,9 +36,11 @@ public class ModBlocks {
             .burnable()
     ));
 
-    public static Block FROSTED_OAK_SLAB = registerBlock("frosted_oak_slab", new Block(Blocks.OAK_SLAB.getSettings()));
+    public static Block FROSTED_OAK_SLAB = registerBlock("frosted_oak_slab", new SlabBlock(SlabBlock.Settings.copy(Blocks.OAK_SLAB)));
 
-    public static Block FROSTED_OAK_TRAPDOOR = registerBlock("frosted_oak_trapdoor", new Block(Blocks.OAK_TRAPDOOR.getSettings()));
+    public static Block FROSTED_OAK_TRAPDOOR = registerBlock("frosted_oak_trapdoor", new Block(AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR)));
+
+    public static Block FROSTED_OAK_STAIRS = registerBlock("frosted_oak_stairs", new StairsBlock(FROSTED_OAK_PLANKS.getDefaultState(), AbstractBlock.Settings.copyShallow(FROSTED_OAK_PLANKS)));
 
     public static Block CRYPTONITE_ORE = registerBlock("cryptonite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),

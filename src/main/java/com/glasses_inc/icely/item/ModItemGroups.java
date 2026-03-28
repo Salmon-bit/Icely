@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FROSTED_OAK_PLANKS);
                         entries.add(ModBlocks.FROSTED_OAK_TRAPDOOR);
                         entries.add(ModBlocks.FROSTED_OAK_SLAB);
+                        entries.add(ModBlocks.FROSTED_OAK_STAIRS);
                     })
                     .build());
 
