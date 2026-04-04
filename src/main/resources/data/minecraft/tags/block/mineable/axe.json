@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "icely:frosted_oak_log",
+    "icely:frosted_oak",
+    "icely:frosted_oak_slab",
+    "icely:frosted_oak_trapdoor",
+    "icely:frosted_oak_stairs",
+    "icely:frosted_oak_planks",
+    "icely:frosted_oak_button",
+    "icely:frosted_stripped_oak_wood",
+    "icely:frosted_stripped_oak_log",
+    "icely:frosted_oak_door",
+    "icely:frosted_oak_fence",
+    "icely:frosted_oak_fence_gate",
+    "icely:frosted_oak_pressure_plate"
+  ]
+}

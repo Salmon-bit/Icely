@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/template_trapdoor_bottom",
+  "parent": "minecraft:block/template_trapdoor_top",
   "textures": {
-    "texture": "minecraft:block/oak_trapdoor"
+    "texture": "icely:block/frosted_oak_trapdoor"
   }
 }

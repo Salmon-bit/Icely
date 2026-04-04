@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "  c",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "c": {
+      "item": "icely:cryptonite_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "icely:freezer_wand",
+    "count": 1
+  }
+}

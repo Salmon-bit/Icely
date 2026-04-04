@@ -14,6 +14,7 @@ public class ModItems {
     public static final Item ICICLE = registerItem("icicle", new Item(new Item.Settings()));
     public static final Item RAW_CRYPONITE = registerItem("raw_cryptonite", new Item(new Item.Settings()));
     public static final Item CRYPTONITE_INGOT = registerItem("cryptonite_ingot", new Item(new Item.Settings()));
+    public static final Item FREEZER_WAND = registerItem("freezer_wand", new FreezerWand(new Item.Settings().maxDamage(20)));
 
     private static Item registerItem(String name, Item item) {
         return  Registry.register(Registries.ITEM, Identifier.of(Icely.MOD_ID, name), item);

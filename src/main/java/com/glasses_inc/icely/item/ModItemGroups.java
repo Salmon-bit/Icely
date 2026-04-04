@@ -20,10 +20,17 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FROSTED_OAK_LOG);
                         entries.add(ModBlocks.FROSTED_OAK);
+                        entries.add(ModBlocks.FROSTED_STRIPPED_OAK_LOG);
+                        entries.add(ModBlocks.FROSTED_STRIPPED_OAK_WOOD);
                         entries.add(ModBlocks.FROSTED_OAK_PLANKS);
-                        entries.add(ModBlocks.FROSTED_OAK_TRAPDOOR);
-                        entries.add(ModBlocks.FROSTED_OAK_SLAB);
                         entries.add(ModBlocks.FROSTED_OAK_STAIRS);
+                        entries.add(ModBlocks.FROSTED_OAK_SLAB);
+                        entries.add(ModBlocks.FROSTED_OAK_FENCE);
+                        entries.add(ModBlocks.FROSTED_OAK_FENCE_GATE);
+                        entries.add(ModBlocks.FROSTED_OAK_DOOR);
+                        entries.add(ModBlocks.FROSTED_OAK_TRAPDOOR);
+                        entries.add(ModBlocks.FROSTED_OAK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FROSTED_OAK_BUTTON);
                     })
                     .build());
 
@@ -39,6 +46,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_CRYPTONITE_ORE);
                         entries.add(ModItems.RAW_CRYPONITE);
                         entries.add(ModItems.CRYPTONITE_INGOT);
+                        entries.add(ModItems.FREEZER_WAND);
                     })
                     .build());
 

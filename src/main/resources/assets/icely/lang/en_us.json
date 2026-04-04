@@ -3,6 +3,7 @@
   "item.icely.icicle": "Icicle",
   "item.icely.raw_cryptonite": "Raw Cryptonite",
   "item.icely.cryptonite_ingot": "Cryptonite Ingot",
+  "item.icely.freezer_wand": "Freezer Wand",
 
   "block.icely.frosted_oak_log": "Frosted Oak Log",
   "block.icely.frosted_oak": "Frosted Oak Block",
@@ -10,6 +11,14 @@
   "block.icely.frosted_oak_trapdoor": "Frosted Oak Trapdoor",
   "block.icely.frosted_oak_slab": "Frosted Oak Slab",
   "block.icely.frosted_oak_stairs": "Frosted Oak Stairs",
+  "block.icely.frosted_stripped_oak_wood": "Frosted Stripped Oak Wood",
+  "block.icely.frosted_stripped_oak_log": "Frosted Stripped Oak Log",
+  "block.icely.frosted_oak_button": "Frosted Oak Button",
+  "block.icely.frosted_oak_door": "Frosted Oak Door",
+  "block.icely.frosted_oak_pressure_plate": "Frosted Oak Pressure Plate",
+  "block.icely.frosted_oak_fence": "Frosted Oak Fence",
+  "block.icely.frosted_oak_fence_gate": "Frosted Oak Fence Gate",
+
   "block.icely.cryptonite_ore": "Cryptonite Ore",
   "block.icely.deepslate_cryptonite_ore": "Deepslate Cryptonite Ore",
 

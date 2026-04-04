@@ -7,11 +7,19 @@
   "block.icely.frosted_oak_slab": "Заледеневшая Дубовая Плита",
   "block.icely.frosted_oak_trapdoor": "Заледенвший Дубовый Люк",
   "block.icely.frosted_oak_stairs": "Заледеневшие Дубовые Ступеньки",
+  "block.icely.frosted_stripped_oak_wood": "Заледеневшее Обтёсанное Дубовое Бревно",
+  "block.icely.frosted_stripped_oak_log": "Заледеневший Обтёсанный Дубовый Блок",
+  "block.icely.frosted_oak_button": "Заледеневшая Дубовая Кнопка",
+  "block.icely.frosted_oak_door": "Заледеневшая Дуовая Дверь",
+  "block.icely.frosted_oak_pressure_plate": "Заледеневшая Дубовая Нажимная Пластина",
+  "block.icely.frosted_oak_fence": "Заледеневший Дубовый Забор",
+  "block.icely.frosted_oak_fence_gate": "Заледеневшая Дубовая Калитка",
 
   "item.icely.blue_ice_icicle": "Сосулька Из Синего Льда",
   "item.icely.icicle": "Сосулька",
   "item.icely.cryptonite_ingot": "Крптонитовый Слиток",
   "item.icely.raw_cryptonite": "Рудный Криптонит",
+  "item.icely.freezer_wand": "Замораживающий Посох",
 
   "itemgroup.tutorialmod.decorative_icely_block_group": "Декоративные Блоки из Icely",
   "itemgroup.tutorialmod.icely": "Icely"
