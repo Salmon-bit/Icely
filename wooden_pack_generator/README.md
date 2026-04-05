@@ -19,6 +19,7 @@ To use this tool you need to install python.
 _PS. You need to type wood type in the snake case like: mangroove, dark_oak, spruce._
 
 Tool will automatically generate all `.json` files and source code that you need to add in `.java` files.
+
 5. Rename all files:
  - If filename is `blockstates` and this `.json` files is in the `log` dir, rename it into `frosted_{wood_type}_log.json` and put it in `blockstates` folder.
  - If there are other symbols in the name like: `model_horizontal.json` and it is in `log` folder, rename it like this: `frosted_{wood_type}_log_horizontal.json`.
@@ -30,7 +31,7 @@ And do it for the all text files in the `java` folder.
 
 7. Check all filenames.
 
-My tool may be not 100% well, so double-check yourself everything you add into your mod.
+My tool may be not 100% well, so double-check everything yourself that you add into your mod.
 
 8. Draw textures.
 
