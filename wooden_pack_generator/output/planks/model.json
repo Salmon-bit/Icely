@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "icely:block/frosted_jungle_planks"
+  }
+}
