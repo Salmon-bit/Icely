@@ -1,0 +1,13 @@
+entries.add(ModBlocks.FROSTED_***_LOG);
+entries.add(ModBlocks.FROSTED_***);
+entries.add(ModBlocks.FROSTED_***IPPED_OAK_LOG);
+entries.add(ModBlocks.FROSTED_***IPPED_OAK_WOOD);
+entries.add(ModBlocks.FROSTED_***_PLANKS);
+entries.add(ModBlocks.FROSTED_***_STAIRS);
+entries.add(ModBlocks.FROSTED_***_SLAB);
+entries.add(ModBlocks.FROSTED_***_FENCE);
+entries.add(ModBlocks.FROSTED_***_FENCE_GATE);
+entries.add(ModBlocks.FROSTED_***_DOOR);
+entries.add(ModBlocks.FROSTED_***_TRAPDOOR);
+entries.add(ModBlocks.FROSTED_***_PRESSURE_PLATE);
+entries.add(ModBlocks.FROSTED_***_BUTTON);

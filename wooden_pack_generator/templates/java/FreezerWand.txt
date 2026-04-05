@@ -1,0 +1,13 @@
+Map.entry(Blocks.***_LOG, ModBlocks.FROSTED_***_LOG),
+Map.entry(Blocks.***_WOOD, ModBlocks.FROSTED_***_WOOD),
+Map.entry(Blocks.***_TRAPDOOR, ModBlocks.FROSTED_***_TRAPDOOR),
+Map.entry(Blocks.***_PLANKS, ModBlocks.FROSTED_***_PLANKS),
+Map.entry(Blocks.***_SLAB, ModBlocks.FROSTED_***_SLAB),
+Map.entry(Blocks.***_STAIRS, ModBlocks.FROSTED_***_STAIRS),
+Map.entry(Blocks.***_BUTTON, ModBlocks.FROSTED_***_BUTTON),
+Map.entry(Blocks.***_DOOR, ModBlocks.FROSTED_***_DOOR),
+Map.entry(Blocks.***_FENCE, ModBlocks.FROSTED_***_FENCE),
+Map.entry(Blocks.***_FENCE_GATE, ModBlocks.FROSTED_***_FENCE_GATE),
+Map.entry(Blocks.STRIPPED_***_LOG, ModBlocks.FROSTED_STRIPPED_***_LOG),
+Map.entry(Blocks.STRIPPED_***_WOOD, ModBlocks.FROSTED_STRIPPED_***_WOOD),
+Map.entry(Blocks.***_PRESSURE_PLATE, ModBlocks.FROSTED_***_PRESSURE_PLATE)

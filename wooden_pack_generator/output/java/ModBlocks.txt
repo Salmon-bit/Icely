@@ -1,0 +1,31 @@
+public static Block FROSTED_MANGROOVE_LOG = registerBlock("frosted_mangroove_log", new PillarBlock(PillarBlock.Settings
+            .create()
+            .strength(4f)
+            .sounds(Blocks.MANGROOVE_LOG.getDefaultState().getSoundGroup())
+            .solid()
+            .burnable()
+    ));
+public static Block FROSTED_MANGROOVE_WOOD = registerBlock("frosted_mangroove_wood", new PillarBlock(PillarBlock.Settings
+        .create()
+        .strength(4f)
+        .sounds(Blocks.MANGROOVE_WOOD.getDefaultState().getSoundGroup())
+        .solid()
+        .burnable()
+));
+public static Block FROSTED_MANGROOVE_PLANKS = registerBlock("frosted_mangroove_planks", new Block(AbstractBlock.Settings
+        .create()
+        .strength(4f)
+        .sounds(Blocks.MANGROOVE_PLANKS.getDefaultState().getSoundGroup())
+        .solid()
+        .burnable()
+));
+public static Block FROSTED_MANGROOVE_SLAB = registerBlock("frosted_mangroove_slab", new SlabBlock(SlabBlock.Settings.copy(Blocks.MANGROOVE_SLAB)));
+public static Block FROSTED_MANGROOVE_TRAPDOOR = registerBlock("frosted_mangroove_trapdoor", new TrapdoorBlock(BlockSetType.MANGROOVE, AbstractBlock.Settings.copy(Blocks.MANGROOVE_TRAPDOOR)));
+public static Block FROSTED_MANGROOVE_STAIRS = registerBlock("frosted_mangroove_stairs", new StairsBlock(FROSTED_MANGROOVE_PLANKS.getDefaultState(), AbstractBlock.Settings.copyShallow(FROSTED_MANGROOVE_PLANKS)));
+public static Block FROSTED_MANGROOVE_DOOR = registerBlock("frosted_mangroove_door", new DoorBlock(BlockSetType.MANGROOVE, AbstractBlock.Settings.copy(Blocks.MANGROOVE_DOOR)));
+public static Block FROSTED_MANGROOVE_BUTTON = registerBlock("frosted_mangroove_button", Blocks.createWoodenButtonBlock(BlockSetType.MANGROOVE));
+public static Block FROSTED_MANGROOVE_FENCE = registerBlock("frosted_mangroove_fence", new FenceBlock(AbstractBlock.Settings.copy(Blocks.MANGROOVE_FENCE)));
+public static Block FROSTED_MANGROOVE_FENCE_GATE = registerBlock("frosted_mangroove_fence_gate", new FenceGateBlock(WoodType.MANGROOVE, AbstractBlock.Settings.copy(Blocks.MANGROOVE_FENCE_GATE)));
+public static Block FROSTED_MANGROOVE_PRESSURE_PLATE = registerBlock("frosted_mangroove_pressure_plate", new PressurePlateBlock(BlockSetType.MANGROOVE, AbstractBlock.Settings.copy(Blocks.MANGROOVE_PRESSURE_PLATE)));
+public static Block FROSTED_STRIPPED_MANGROOVE_LOG = registerBlock("frosted_stripped_mangroove_log", new PillarBlock(AbstractBlock.Settings.copy(Blocks.MANGROOVE_LOG)));
+public static Block FROSTED_STRIPPED_MANGROOVE_WOOD = registerBlock("frosted_stripped_mangroove_wood", new PillarBlock(AbstractBlock.Settings.copy(Blocks.MANGROOVE_WOOD)));

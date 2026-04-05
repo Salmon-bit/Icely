@@ -1,5 +1,7 @@
 import os
 from wooden_pack_generator import planks
+from wooden_pack_generator import java
+from wooden_pack_generator import log
 
 wood_type = input("Введите тип древесины: ").lower()
 match wood_type:
@@ -12,7 +14,7 @@ match wood_type:
     case 'acacia':
         rus_wood_type = ["Акациевое", "Акациевый", "Акациевая", "Акациевые"]
     case 'dark_oak':
-        rus_wood_type = ["Из тёмного дуба"]
+        rus_wood_type = ["Из Тёмного Дуба"]
     case 'jungle':
         rus_wood_type = ["Джунглевое", "Джунглевый", "Джунглевая", "Джунглевые"]
     case 'mangroove':
@@ -20,6 +22,7 @@ match wood_type:
     case _:
         raise BaseException
 
+print("Генерирую структуру папок...")
 try:
     os.system("rmdir output /s /q")
 except:
@@ -27,8 +30,27 @@ except:
 os.mkdir("output")
 os.chdir("output")
 os.mkdir("planks")
+os.mkdir("java")
+os.mkdir("button")
+os.mkdir("chipped_log")
+os.mkdir("chipped_wood")
+os.mkdir("fence")
+os.mkdir("fence_gate")
+os.mkdir("log")
+os.mkdir("pressure_plate")
+os.mkdir("stairs")
+os.mkdir("wood")
 os.chdir("..")
 
+print("Генерирую код...")
+java.generate(wood_type)
 print("Генерирую доски...")
-
 planks.generate(wood_type, rus_wood_type)
+print("Генерирую бревно...")
+log.generate(wood_type, rus_wood_type)
+# print("Генерирую дерево")
+# wood.generate(wood_type, rus_wood_type)
+# print("Генерирую обтёсанное бревно...")
+# chipped_log.generate(wood_type, rus_wood_type)
+# print("Генерирую обтёсаннное дерево...")
+# chipped_wood.generate(wood_type, rus_wood_type)

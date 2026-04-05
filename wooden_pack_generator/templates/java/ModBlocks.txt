@@ -1,0 +1,31 @@
+public static Block FROSTED_***_LOG = registerBlock("frosted_@@@_log", new PillarBlock(PillarBlock.Settings
+            .create()
+            .strength(4f)
+            .sounds(Blocks.***_LOG.getDefaultState().getSoundGroup())
+            .solid()
+            .burnable()
+    ));
+public static Block FROSTED_***_WOOD = registerBlock("frosted_@@@_wood", new PillarBlock(PillarBlock.Settings
+        .create()
+        .strength(4f)
+        .sounds(Blocks.***_WOOD.getDefaultState().getSoundGroup())
+        .solid()
+        .burnable()
+));
+public static Block FROSTED_***_PLANKS = registerBlock("frosted_@@@_planks", new Block(AbstractBlock.Settings
+        .create()
+        .strength(4f)
+        .sounds(Blocks.***_PLANKS.getDefaultState().getSoundGroup())
+        .solid()
+        .burnable()
+));
+public static Block FROSTED_***_SLAB = registerBlock("frosted_@@@_slab", new SlabBlock(SlabBlock.Settings.copy(Blocks.***_SLAB)));
+public static Block FROSTED_***_TRAPDOOR = registerBlock("frosted_@@@_trapdoor", new TrapdoorBlock(BlockSetType.***, AbstractBlock.Settings.copy(Blocks.***_TRAPDOOR)));
+public static Block FROSTED_***_STAIRS = registerBlock("frosted_@@@_stairs", new StairsBlock(FROSTED_***_PLANKS.getDefaultState(), AbstractBlock.Settings.copyShallow(FROSTED_***_PLANKS)));
+public static Block FROSTED_***_DOOR = registerBlock("frosted_@@@_door", new DoorBlock(BlockSetType.***, AbstractBlock.Settings.copy(Blocks.***_DOOR)));
+public static Block FROSTED_***_BUTTON = registerBlock("frosted_@@@_button", Blocks.createWoodenButtonBlock(BlockSetType.***));
+public static Block FROSTED_***_FENCE = registerBlock("frosted_@@@_fence", new FenceBlock(AbstractBlock.Settings.copy(Blocks.***_FENCE)));
+public static Block FROSTED_***_FENCE_GATE = registerBlock("frosted_@@@_fence_gate", new FenceGateBlock(WoodType.***, AbstractBlock.Settings.copy(Blocks.***_FENCE_GATE)));
+public static Block FROSTED_***_PRESSURE_PLATE = registerBlock("frosted_@@@_pressure_plate", new PressurePlateBlock(BlockSetType.***, AbstractBlock.Settings.copy(Blocks.***_PRESSURE_PLATE)));
+public static Block FROSTED_STRIPPED_***_LOG = registerBlock("frosted_stripped_@@@_log", new PillarBlock(AbstractBlock.Settings.copy(Blocks.***_LOG)));
+public static Block FROSTED_STRIPPED_***_WOOD = registerBlock("frosted_stripped_@@@_wood", new PillarBlock(AbstractBlock.Settings.copy(Blocks.***_WOOD)));

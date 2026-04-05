@@ -1,4 +1,4 @@
-def generate(wood_type: str, rus_wood_type: list[str, str, str, str]) -> None:
+def generate(wood_type: str, rus_wood_type: list[str]) -> None:
         with open("output/planks/model.json", 'w+', encoding='UTF-8') as file:
             with open("templates/planks/model.json", "r", encoding='UTF-8') as temp:
                 template = temp.read().strip()

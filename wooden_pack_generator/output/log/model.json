@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "icely:block/frosted_mangroove_log_top",
+    "side": "icely:block/frosted_mangroove_log"
+  }
+}

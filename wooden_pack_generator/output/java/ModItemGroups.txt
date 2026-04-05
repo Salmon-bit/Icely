@@ -1,0 +1,13 @@
+entries.add(ModBlocks.FROSTED_MANGROOVE_LOG);
+entries.add(ModBlocks.FROSTED_MANGROOVE);
+entries.add(ModBlocks.FROSTED_MANGROOVEIPPED_OAK_LOG);
+entries.add(ModBlocks.FROSTED_MANGROOVEIPPED_OAK_WOOD);
+entries.add(ModBlocks.FROSTED_MANGROOVE_PLANKS);
+entries.add(ModBlocks.FROSTED_MANGROOVE_STAIRS);
+entries.add(ModBlocks.FROSTED_MANGROOVE_SLAB);
+entries.add(ModBlocks.FROSTED_MANGROOVE_FENCE);
+entries.add(ModBlocks.FROSTED_MANGROOVE_FENCE_GATE);
+entries.add(ModBlocks.FROSTED_MANGROOVE_DOOR);
+entries.add(ModBlocks.FROSTED_MANGROOVE_TRAPDOOR);
+entries.add(ModBlocks.FROSTED_MANGROOVE_PRESSURE_PLATE);
+entries.add(ModBlocks.FROSTED_MANGROOVE_BUTTON);
